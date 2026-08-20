@@ -64,7 +64,7 @@ function BookingPage() {
   const [dropOff, setDropOff] = useState("");
   const [pickUp, setPickUp] = useState("");
 
-  const service = SERVICES.find((s) => s.id === serviceId) ?? SERVICES[0];
+  const service = SERVICES.find((s) => s.id === serviceId) ?? SERVICES[3]!;
   const total = useMemo(() => service.rate * kg, [service, kg]);
 
   const submit = (event: React.FormEvent) => {
