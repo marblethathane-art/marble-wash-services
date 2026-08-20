@@ -70,7 +70,7 @@ function BookingPage() {
   const submit = (event: React.FormEvent) => {
     event.preventDefault();
     if (!name || !phone || !dropOff || !pickUp) {
-      toast.error("Please fill in your details and both times.");
+      toast.error("Please fillnt in your details and both times.");
       return;
     }
     toast.success(
