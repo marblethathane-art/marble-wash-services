@@ -1,14 +1,18 @@
-# Welcome to your Lovable project
+# Laundry Day App
+
+please build an app for my clients to use when booking appointments for my laundry business,it must include drop off and pick up time,prices per kgs .the app must also have seperate prices for washing,ironing and folding and inclusive
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://marble-wash-services.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/61be90ed-4e8d-4b1f-b9bd-104c7d792918).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +24,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
